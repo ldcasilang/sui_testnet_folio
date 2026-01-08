@@ -1,0 +1,20 @@
+.about-sui {
+  background-color: #143f63;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button.learn-more {
+  background-color: #024e9e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
