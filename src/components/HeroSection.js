@@ -1,16 +1,19 @@
 import React, { useState } from "react";
 import "./HeroSection.css";
-import profilePic from "./0adfa5cc-f93a-4857-b9eb-076102cf28d1.png";
 
 const HeroSection = () => {
   const [name, setName] = useState("LADY DIANE CASILANG");
-  const [position, setPosition] = useState("Project Management & Blockchain Smart Contracts Intern");
+  const [position, setPosition] = useState(
+    "Project Management & Blockchain Smart Contracts Intern"
+  );
 
   return (
     <section className="hero">
       <button className="get-testnet">Get Testnet Sui</button>
       <div className="hero-card">
-        <img className="hero-photo" src={profilePic} alt="Profile" />
+        {/* Use public folder image directly */}
+        <img className="hero-photo" src="/hero.png" alt="Profile" />
+
         <div className="content">
           <h1>Hello! My name is</h1>
           <h2>{name}</h2>
